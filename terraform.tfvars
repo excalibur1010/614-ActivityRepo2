@@ -3,5 +3,5 @@
 
 # IMPORTANT: Change these values before running terraform!
 db_username = "admin"
-db_password = "ChangeThisToSecurePassword123!"  # CHANGE THIS!
-key_name    = "your-key-name"  # CHANGE THIS to your actual AWS key pair name
+db_password = "thisisaverySecurePassword123!"  # CHANGE THIS!
+key_name    = "pk_key1"  # CHANGE THIS to your actual AWS key pair name
