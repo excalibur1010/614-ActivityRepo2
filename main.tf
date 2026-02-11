@@ -1,3 +1,10 @@
+terraform {
+  backend "s3" {
+    bucket = "amzn-tf-bucket1"
+    key    = "wordpress-rds/terraform.tfstate"
+    region = "us-east-1"
+  }
+}
 # Provider Configuration
 provider "aws" {
   region = var.aws_region
